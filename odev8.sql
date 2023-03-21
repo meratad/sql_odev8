@@ -88,3 +88,15 @@ WHERE id = 4;
 
 DELETE FROM employee
 WHERE id = 1
+
+DELETE FROM employee 
+WHERE id=3;
+
+DELETE FROM employee
+WHERE email='ghhh@abc.com';
+
+DELETE FROM employee
+WHERE birthday='2000-03-03';
+
+DELETE FROM employee 
+WHERE id=4;
