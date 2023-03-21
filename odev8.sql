@@ -67,6 +67,23 @@ SET name = 'Skipy',
 	email = 'ddd@ddd.com'
 WHERE id = 1;
 
+UPDATE employee 
+SET name = 'Deri' 
+WHERE id = 2;
+
+UPDATE employee 
+SET email = 'abdd@dca.com' 
+WHERE id = 5;
+	
+UPDATE employee 
+SET birthday = '2000-03-03' 
+WHERE id = 6;
+	
+UPDATE employee 
+SET email = 'ghhh@abc.com' 
+WHERE id = 4;
+
+
 4) Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 
 DELETE FROM employee
